@@ -1,1 +1,0 @@
-cmd_/home/tann/kernel_programming/simple_hello/Module.symvers := sed 's/ko$$/o/' /home/tann/kernel_programming/simple_hello/modules.order | scripts/mod/modpost -m -a  -o /home/tann/kernel_programming/simple_hello/Module.symvers -e -i Module.symvers   -T -

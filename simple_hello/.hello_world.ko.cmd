@@ -1,1 +1,0 @@
-cmd_/home/tann/kernel_programming/simple_hello/hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/tann/kernel_programming/simple_hello/hello_world.ko /home/tann/kernel_programming/simple_hello/hello_world.o /home/tann/kernel_programming/simple_hello/hello_world.mod.o;  true
