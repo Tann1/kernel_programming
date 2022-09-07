@@ -1,0 +1,1 @@
+cmd_/home/tann/kernel_programming/simple_char_driver/modules.order := {   echo /home/tann/kernel_programming/simple_char_driver/char_driver.ko; :; } | awk '!x[$$0]++' - > /home/tann/kernel_programming/simple_char_driver/modules.order

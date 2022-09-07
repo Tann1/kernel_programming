@@ -1,0 +1,1 @@
+cmd_/home/tann/kernel_programming/simple_char_driver/char_driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/tann/kernel_programming/simple_char_driver/char_driver.ko /home/tann/kernel_programming/simple_char_driver/char_driver.o /home/tann/kernel_programming/simple_char_driver/char_driver.mod.o;  true
